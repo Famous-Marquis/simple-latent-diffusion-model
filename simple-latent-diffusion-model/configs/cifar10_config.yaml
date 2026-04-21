@@ -30,7 +30,7 @@ sampler:
 cond_encoder:
     num_cond : 10
     embed_dim : 512
-    cond_dim : 256 # Should be the same with 'cond_dim' in unet
+    cond_dim : 256 # must be the same with unet cond_dim
     cond_drop_prob: 0.2
 
 unet:
